@@ -1,0 +1,109 @@
+#FishyPirateItems configg
+replacement:
+  replace_vanilla_sword_drops: true
+  replace_vanilla_sword_loot: true
+  replace_existing_swords_on_join: false
+  remove_vanilla_sword_recipes: true
+
+mob_drops:
+  cutlass_chance: 0.0003
+  enchanted_chance: 0.04
+stamina:
+  cooldown_seconds: 20
+  variants:
+    wood:
+      max_hits: 3
+    stone:
+      max_hits: 5
+    copper:
+      max_hits: 6
+    iron:
+      max_hits: 8
+    gold:
+      max_hits: 4
+    diamond:
+      max_hits: 12
+    netherite:
+      max_hits: 15
+dodge:
+  cooldown_seconds: 1.5
+  velocity_multiplier: 1.8
+  vertical_boost: 0.3
+  i_frames_ticks: 6
+blocking:
+  axe_disable_seconds: 5
+  attacker_knockback: 0.6
+  attacker_knockback_enabled: false
+
+  dash_shield_disable_seconds: 3
+
+  player_hit_sound_enabled: true
+  player_hit_sound: entity.arrow.hit_player
+
+  hold_expire_ms: 500
+  max_hold_seconds: 20
+  max_hold_cooldown_seconds: 5
+
+  consume_seconds: 720000
+  block_delay_seconds: 0.0
+  disable_cooldown_scale: 0.0
+
+  damage_reduction_base: 0.0
+  damage_reduction_factor: 1.0
+
+  horizontal_blocking_angle: 180.0
+items:
+  unbreakable: true
+fruits:
+  duration_seconds: 12
+  stamina_cooldown_multiplier: 0.5
+  scurvy_lime:
+    heal: 4.0
+    duration_seconds: 12
+    stamina_cooldown_multiplier: 0.5
+    extra_stamina_hits: 1
+    stamina_restore_hits: 1
+  sunken_mango:
+    heal: 6.0
+    duration_seconds: 14
+    stamina_cooldown_multiplier: 0.45
+    extra_stamina_hits: 2
+    stamina_restore_hits: 2
+  captain_coconut:
+    heal: 8.0
+    duration_seconds: 16
+    stamina_cooldown_multiplier: 0.4
+    extra_stamina_hits: 3
+    stamina_restore_hits: 3
+models:
+  enabled: false
+  default_item_model_namespace: nexo
+  wood: 1001
+  stone: 1002
+  copper: 1003
+  iron: 1004
+  gold: 1005
+  diamond: 1006
+  netherite: 1007
+  scurvy_lime: 1102
+  sunken_mango: 1103
+  captain_coconut: 1104
+  item_model:
+    wood: nexo:wood
+    stone: nexo:stone
+    copper: nexo:copper
+    iron: nexo:iron
+    gold: nexo:gold
+    diamond: nexo:diamond
+    netherite: nexo:netherite
+    scurvy_lime: nexo:scurvy_lime
+    sunken_mango: nexo:sunken_mango
+    captain_coconut: nexo:captain_coconut
+damage:
+  wood: 4.0
+  stone: 5.0
+  copper: 5.0
+  iron: 6.0
+  gold: 4.0
+  diamond: 7.0
+  netherite: 8.0

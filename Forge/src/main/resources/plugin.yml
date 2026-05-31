@@ -1,0 +1,23 @@
+name: PMC
+version: ${project.version}
+main: com.piratesmc.cutlasses.CutlassesPlugin
+api-version: '26.1'
+folia-supported: true
+description: Pirate items for PMC
+authors:
+  - Fishy__MC
+commands:
+  cutlass:
+    description: Cutlass management command
+    usage: /cutlass <give|reload|info>
+    aliases: [cl, cutlasses]
+permissions:
+  piratesmc.cutlass.give:
+    description: Allows giving pirate items to players
+    default: op
+  piratesmc.cutlass.admin:
+    description: Allows reloading the plugin config
+    default: op
+  piratesmc.cutlass.info:
+    description: Allows viewing held cutlass info
+    default: true
