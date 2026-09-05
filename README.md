@@ -15,3 +15,9 @@ FishyCutlasses is a plugin for PiratesMC to add cutlasses to the game without an
 **Building the project** 
 
 Idfk use maven or clone the repo in IntelliJ and call it a day
+
+
+**PiratesMC Datapack** 
+
+For my later reference, can be found at: http://github.com/FishyMCDev/randomworldgenerationpack 
+
