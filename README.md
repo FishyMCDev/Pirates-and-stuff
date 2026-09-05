@@ -19,5 +19,5 @@ Idfk use maven or clone the repo in IntelliJ and call it a day
 
 **PiratesMC Datapack** 
 
-For my later reference, can be found at: http://github.com/FishyMCDev/randomworldgenerationpack 
+Will be added later when I feel like it
 
