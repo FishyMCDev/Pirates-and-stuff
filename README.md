@@ -12,12 +12,19 @@ FishyCutlasses is a plugin for PiratesMC to add cutlasses to the game without an
 - Fruits to increase/decrease stamina of cutlasses :P 
 
 
-**Building the project** 
+**Using the project** 
 
-Idfk use maven or clone the repo in IntelliJ and call it a day
+Download the .jar from releases, and plop it into a server with: 
+
+- Java 21 
+- Minecraft version 1.21.11+ 
+- Folia supported! 
 
 
-**PiratesMC Datapack** 
 
-Will be added later when I feel like it
+**PiratesMC Datapack / FishyForge** 
+
+Is **CURRENTLY** Being added at another repository 
+
+ETA: 1 day
 
